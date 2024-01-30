@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra a Idade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!--Foco da pagina, onde tem campo de digitar ano e calcular-->
+    <main id="campoprincipal">
+        <h1 class="titulo">Descubra a Idade</h1>
+        <div class="campodigitacao">
+            <label for="ano">Digite o ano que você nasceu</label>
+            <input class="anoquenasceu" type="number" id="ano" minlength="4" maxlength="4" required>
+            <button class="botaocalcular" onclick="calcular()" title="Calcular">Descobrir</button>
+        </div>
+        <!--Div que imprime o resultado na tela-->
+        <div class="resultadonatela"></div>
+        <!--Div que acompanha o resultado na tela-->
+        <div class="txtfixoresultado">Sua idade é:</div>
+    </main>
+    <!--Modo azul-->
+    <button id="azul" onclick="modoazul()">Modo azul</button>
+     <!--Modo azul-->
+    <button id="vermelho" onclick="modovermelho()">Modo vermelho</button>
+</body>
+</html>

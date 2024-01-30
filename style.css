@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00008B;
+}
+/*foco da pagina centralizada*/
+#campoprincipal{
+    background-color: DarkBlue;
+    padding: 50px;
+    position: absolute;
+    top: 27%;
+    left: 29%;
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 8px 8px 10px;
+}
+main h1{
+    color: black;
+    width: 55%;
+    text-align: center;
+    margin-left: 20%;
+    margin-bottom: 12%;
+    background-color: white;
+    border-radius: 8px;
+}
+main label{
+    font-size: 20px;
+    color: black;
+}
+input{
+    border-radius: 5px;
+    padding: 2px;
+    border: 2px solid black;
+}
+/*Estilo e posicionamento do botao calcular*/
+.botaocalcular{
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    color: black
+}
+.botaocalcular:hover{
+    background-color: rgb(206, 206, 206);
+}
+/*texto onde mostra o resultado na tela*/
+.resultadonatela{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: -4%;
+    margin-bottom: -1%;
+    font-size: 20px;
+}
+.txtfixoresultado{
+    margin-left: 23%;
+    margin-top: -5%;
+    font-size: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 30%;
+}
+/*Botao modo azul*/
+#azul{
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 5px;
+    width: 6%;
+    border: 2px solid black;
+}
+#azul:hover{
+    background-color: rgb(118, 204, 254);
+}
+/*Botao modo vermelho*/
+#vermelho{
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 5px;
+    width: 8%;
+    border: 2px solid black;
+}
+#vermelho:hover{
+    background-color: rgb(253, 99, 99);
+}
+
+/*Versão Celular*/
+
+@media screen and (max-width:667px){
+    #azul{
+        margin-left: 32%;
+        width:20%
+    }
+    #vermelho{
+        width: 25%;
+    }
+    #campoprincipal{
+        margin-left: -30%;
+    }
+    .txtfixoresultado{
+        width: 65%;
+    }
+    .resultadonatela{
+        margin-left: 40%;
+        margin-top: 25%;
+        margin-bottom: -6%;
+    }
+}
