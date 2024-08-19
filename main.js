@@ -11,7 +11,7 @@ function modoazul(){
     const corazul = document.getElementById("campoprincipal").style.backgroundColor="DarkBlue"
 }
 
-//Pagina no modo azul//
+//Pagina no modo vermelho//
 function modovermelho(){
     document.body.style.backgroundColor= "DarkRed"
     const corvermelho = document.getElementById("campoprincipal").style.backgroundColor = "DarkRed"
